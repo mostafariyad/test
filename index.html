@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enrollment</title>
+	<link rel="stylesheet" type="text/css" href="new.css">
+	<script type="text/javascript">
+		function rej() 
+			{
+			var rr = document.getElementById("acc");
+			
+			if (rr == "y")
+			{ 
+				document.getElementById("para").innerHTML = "he is old";
+			}
+			else
+			
+				document.getElementById("para").innerHTML = "he is new";
+				document.getElementById("para1").innerHTML =
+				"The value of rr is " + rr + ".";
+			}
+				 	
+	</script>
+</head>
+<body>
+<h1>This is Home page of Enrollment site !</h1>
+<p>This page is intended to complete the enrollment process of students of Mr. Abd el-Raheem mahmoud</p>
+<h2>Student Verification</h2>
+<p>Were You a student of mine before?</p>
+
+
+<form>
+    <input type="radio" name="acc" value="yes" > Yes<br>
+  	<input type="radio" name="acc" value="no"> No<br>
+</form>
+<h2>Enrollment</h2>
+<p>What grade are you enrolling for?</p>
+<form>
+  <input type="radio" name="Grade" value="1st" > First Grade<br>
+  <input type="radio" name="Grade" value="2nd"> Second Grade<br>
+  <input type="radio" name="Grade" value="3rd"> Third Grade
+</form>
+<form>
+	<p>Enter Your Name</p>
+	<input type="text" name="student"><br>
+	<p>Enter Your Phone Number</p>
+	<input type="tel" name="phone" pattern="[0-2]{3}-[0-9]{2}-[0-9]{3}">
+	<p>Enter Your Parent's Phone Number</p>
+	<input type="tel" name="phone" pattern="[0-2]{3}-[0-9]{2}-[0-9]{3}">
+</form>
+<h2>Groups</h2>
+<h3>1st secondary groups</h3>
+<p>Select The desired group </p>
+<form>
+  <input type="radio" name="group" value="2:30 ~ 4:00" > 2:30 ~ 4:00 <br>
+  <input type="radio" name="group" value="4:00 ~ 5:30"> 4:00 ~ 5:30 <br>
+  <input type="radio" name="group" value="5:30 ~ 7:00"> 5:30 ~ 7:00 <br>
+  <input type="radio" name="group" value="7:00 ~ 8:30"> 7:00 ~ 8:30 
+</form>
+</form>
+<h3>2nd secondary groups</h3>
+<p>Select The desired group </p>
+<form>
+  <input type="radio" name="group" value="2:30 ~ 4:00" > 2:30 ~ 4:00 <br>
+  <input type="radio" name="group" value="4:00 ~ 5:30"> 4:00 ~ 5:30 <br>
+  <input type="radio" name="group" value="5:30 ~ 7:00"> 5:30 ~ 7:00 <br>
+  <input type="radio" name="group" value="7:00 ~ 8:30"> 7:00 ~ 8:30 
+</form>
+</form>
+<h3>3rd secondary groups</h3>
+<p>Select The desired group </p>
+<form>
+  <input type="radio" name="group" value="2:30 ~ 4:00" > 2:30 ~ 4:00 <br>
+  <input type="radio" name="group" value="4:00 ~ 5:30"> 4:00 ~ 5:30 <br>
+  <input type="radio" name="group" value="5:30 ~ 7:00"> 5:30 ~ 7:00 <br>
+  <input type="radio" name="group" value="7:00 ~ 8:30"> 7:00 ~ 8:30<br>
+  <input type="radio" name="group" value="8:30 ~ 10:00"> 8:30 ~ 10:00  
+</form>
+
+
+
+</body>
+</html>
+
+
+
+

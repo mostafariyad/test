@@ -2,7 +2,7 @@ body {
 	background-image: url(1.png);
 	background-repeat: repeat-x;
 	background-size: cover;
-
+	
 }
 h1{
 	color: white;
@@ -22,5 +22,12 @@ p{
 
 }
 form{
+	text-align: center;
+}
+.b {
+	text-align: center;
+	size: 50px;
+}
+.date{
 	text-align: center;
 }
