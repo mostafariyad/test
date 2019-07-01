@@ -1,0 +1,26 @@
+body {
+	background-image: url(1.png);
+	background-repeat: repeat-x;
+	background-size: cover;
+
+}
+h1{
+	color: white;
+	margin-top: 30px;
+	text-align: center;
+}
+h2{
+	color: #006699;
+	text-align: center;
+}
+h3{
+	text-align: center;
+
+}
+p{
+	text-align: center;
+
+}
+form{
+	text-align: center;
+}

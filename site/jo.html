@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enrollment</title>
+	<script type="text/javascript">
+		function rej() 
+			{
+			var rr = document.getElementById("acc").value;
+			
+			if (rr == "No")
+			{ 
+				document.getElementById("para").innerHTML = "he is old";
+			}
+			else
+			
+				document.getElementById("para").innerHTML = "he is new";
+			}	
+	</script>
+</head>
+<body>
+<h1>This is Home page of Enrollment site !</h1>
+<h2>Student Verification</h2>
+<p>Were You a student of mine before?</p>
+<form>
+  <input type="radio"  value="Yes" id="acc" onclick="rej();">Yes<br>
+  <input type="radio" value="No" id="acc" onclick="rej();">No<br>
+</form>
+<p id="para"></p>
+</body>
+</html>

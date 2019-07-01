@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enrollment</title>
+	<link rel="stylesheet" type="text/css" href="new.css">
+	<script type="text/javascript" src="valid.js"></script>
+</head>
+<body>
+<h2>Enrollment</h2>
+<p>What grade are you enrolling for?</p>
+<div class = "b">
+	<button onclick="dates1()";>First Grade 1st</button><br><br>
+	<button onclick="dates2()";>Second Grade 2nd</button><br><br>
+	<button onclick="dates3()";>Third Grade 3rd</button><br><br>
+</div>
+<div class="date" id="dates"></div>
+<form action="groups.html">
+	<p>Enter Your Name</p>
+	<input type="text" id="student" onblur="namechk()";><br>
+	<div id="namechk"></div>
+	<p>Enter Your Phone Number</p>
+	<input type="tel" id="phones" onblur="numchk()";>
+	<div id="phnchk"></div>
+	<p>Enter Your Parent's Phone Number</p>
+	<input type="tel" id="phonep" onblur="numchk2()";>
+	<div id="pphnchk"></div><br>
+	<input type="submit" name="submit2">
+</form>
+</body>
+</html>
